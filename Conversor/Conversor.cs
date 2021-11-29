@@ -11,6 +11,8 @@ namespace Conversor
         private double TotalemReais;
         private double TotalComTaxa;
         private double ValorTaxa;
+        //Cotação IOF (Hard Code)
+        //https://agenciabrasil.ebc.com.br/economia/noticia/2021-09/comecam-a-valer-hoje-novas-aliquotas-do-IOF
         public double IOF = 0.0408;
 
         //Encapsulamento Cotação e Quantidade de dólares.

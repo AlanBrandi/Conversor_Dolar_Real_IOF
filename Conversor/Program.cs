@@ -6,6 +6,8 @@ namespace Conversor
     {
         static void Main(string[] args)
         {
+            //Cotação atual(29/11/2021) = R$5,607, https://economia.uol.com.br/cotacoes/cambio/
+
             //Perguntando a cotação do dólar atual + salvando em "ValorDolar".
             Console.Write("Qual a cotação do dólar atual? $");
             double ValorDolar = double.Parse(Console.ReadLine());
